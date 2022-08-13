@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body { 
+    width: 100%;
+    max-width: 1400px;
+    height: 100%;
+    background-color: rgb(71, 75, 60);
+    font-family: 'Encode Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteBox {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    background-color: rgb(174, 164, 164);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.quoteBox h1{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.quoteBox .quoteText{
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.quoteCopied{
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px 0;
+    color: rgb(100, 20, 20);
+    font-size: 1.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
